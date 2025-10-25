@@ -2,8 +2,7 @@
 
 I added a new `/remove/<id>` route in `views.py` and a **“remove”** link in the HTML template so that tasks can be deleted directly by their ID.  
 I also extended the `Task` model by adding a `priority` column and updated the form and view logic to handle different priority levels (high, medium, low).  
-To fix password hashing issues, I switched the method to PBKDF2 for compatibility.  
-Finally, I made sure the SQLite database (`instance/todo.db`) matched the updated model by recreating or migrating it.
+To fix password hashing issues, I switched the method to PBKDF2 for compatibility.
 
 ### Why It Matters
 
